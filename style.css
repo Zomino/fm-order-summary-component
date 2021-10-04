@@ -130,11 +130,6 @@ a:hover {
 }
 
 .card-button {
-    display: block;
-    margin: 10px auto;
-    height: 45px;
-    width: 100%;
-    border-radius: 12px;
     outline: none;
     border:none;
     font-size: 16px;
@@ -146,6 +141,11 @@ a:hover {
 }
 
 .proceed-button {
+    display: block;
+    margin: 10px auto 30px;
+    height: 45px;
+    width: 100%;
+    border-radius: 12px;
     background-color: var(--bright-blue);
     box-shadow: 0 5px 20px -10px var(--bright-blue);
     font-weight: var(--medium-weight);
