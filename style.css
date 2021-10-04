@@ -164,7 +164,18 @@ a:hover {
     color: var(--dark-blue);
 }
 
+/* mobile design */
 
+@media (max-width: 600px) {
+
+    body {
+        background-image: none;
+    }
+
+    .card {
+        max-width: 350px;
+    }
+}
 
 
 
