@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+/* defaults */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Red hat Display', sans-serif;
+}
+
+:root {
+    --pale-blue: hsl(225, 100%, 94%);
+    --bright-blue: hsl(245, 75%, 52%);
+    --bright-blue-hover: hsl(245, 75%, 62%);
+    --very-pale-blue: hsl(225, 100%, 98%);
+    --desaturated-blue: hsl(224, 23%, 55%);
+    --dark-blue: hsl(223, 47%, 23%);
+    --light-weight: 500;
+    --medium-weight: 700;
+    --heavy-weight: 900;
+}
+
+/* background */
+
+body {
+    background-image: url(./images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#overlay {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: var(--pale-blue);
+    opacity: 50%;
+}
+
+/* card */
+
+.card {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    border-radius: 30px;
+    overflow: hidden;
+    background-color: white;
+}
+
+.card-image {
+    width: 100%;
+}
+
+.card-body {
+    padding:40px;
+    text-align: center;
+}
+
+.card-heading {
+    margin-bottom: 20px;
+    font-size: 25px;
+    font-weight: var(--heavy-weight);
+    color: var(--dark-blue);
+}
+
+.card-message {
+    font-size: 16px;
+    color: var(--desaturated-blue);
+}
+
+.card-plan-flex {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 30px 0px;
+    padding: 20px;
+    border-radius: 12px;
+    background-color: var(--very-pale-blue);
+}
+
+.card-plan-flex-item-1 {
+    flex-grow: 1;
+}
+
+.card-plan-flex-item-2 {
+    flex-grow: 3;
+}
+
+.card-plan-flex-item-3 {
+    flex-grow: 1;
+}
+
+.music-icon {
+    background-image: url(./images/icon-music.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+    margin-right: 10px;
+}
+
+.card-plan-flex-item-2 > * {
+    text-align: left;
+    color: var(--dark-blue);
+}
+
+.plan-name {
+    font-weight: var(--heavy-weight);
+}
+
+.plan-price {
+    color: var(--desaturated-blue);
+}
+
+a {
+    text-decoration: underline;
+    font-weight: var(--heavy-weight);
+    color: var(--bright-blue);
+}
+
+a:hover {
+    color: var(--bright-blue-hover);
+}
+
+.card-button {
+    display: block;
+    margin: 10px auto;
+    height: 45px;
+    width: 100%;
+    border-radius: 12px;
+    outline: none;
+    border:none;
+    font-size: 16px;
+    font-weight: var(--medium-weight);
+}
+
+.card-button:hover {
+    cursor: pointer;
+}
+
+.proceed-button {
+    background-color: var(--bright-blue);
+    font-weight: var(--medium-weight);
+    color: var(--very-pale-blue);
+}
+
+.proceed-button:hover {
+    background-color: var(--bright-blue-hover);
+}
+
+.cancel-button {
+    background-color: white;
+    font-weight: var(--medium-weight);
+    color: var(--desaturated-blue);
+}
+
+.cancel-button:hover {
+    color: var(--dark-blue);
+}
+
+
+
+
+
