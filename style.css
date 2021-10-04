@@ -50,6 +50,7 @@ body {
     border-radius: 30px;
     overflow: hidden;
     background-color: white;
+    box-shadow: 0 15px 30px -20px var(--desaturated-blue);
 }
 
 .card-image {
@@ -146,6 +147,7 @@ a:hover {
 
 .proceed-button {
     background-color: var(--bright-blue);
+    box-shadow: 0 5px 20px -10px var(--bright-blue);
     font-weight: var(--medium-weight);
     color: var(--very-pale-blue);
 }
