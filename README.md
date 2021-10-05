@@ -66,6 +66,8 @@ Users should be able to:
   - Flexbox is useful for arranging elements horizontally.
   - A grey cancel button is harder to see!
   - For buttons that just consist of text, limit the area triggering the hover effect to just the text itself.
+  - Avoid only using divs, as this hurts the accessibility of a page.
+  - The semantic tags used should depend on the scope of the project. For example, if the page only consists of a card, then that card heading should take the h1 tag.
 
 ### Continued development
 
